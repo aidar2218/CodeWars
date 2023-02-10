@@ -47,11 +47,22 @@
 // Considering these factors, write a function that tells you if it is 
 // possible to get to the pump or not.
 
+// Function should return true if it is possible and false if not.
 
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    if (distanceToPump > (mpg * fuelLeft)) {
-        return false;
-    } else {
-        return true;
-    }
-};
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+//     if (distanceToPump > (mpg * fuelLeft)) {
+//         return false;
+//     } else {
+//         return true;
+//     }
+// };
+//////////////////////////////////////////////////////////////////////
+
+
+
+// Write a function that accepts an integer n and a string s as 
+// parameters, and returns a string of s repeated exactly n times.
+
+function repeatStr (n, s) {
+    return s.repeat(n);
+}
