@@ -83,10 +83,25 @@
 // the array values as if all were numbers.
 // Return your answer as a number.
 
-function sumMix(x) {
-    let result = 0;
-    for (i = 0; i < x.length; i++) {
-        result += Number(x[i]);
+// function sumMix(x) {
+//     let result = 0;
+//     for (i = 0; i < x.length; i++) {
+//         result += Number(x[i]);
+//     }
+//     return result;
+// }
+////////////////////////////////////////////////////////////////////
+
+
+
+// Given a set of numbers, return the additive inverse of each. Each 
+// positive becomes negatives, and the negatives become positives.
+// You can assume that all values are integers. Do not mutate the input 
+// array/list.
+
+function invert(array) {
+    for(let i = 0; i < array.length; i++) {
+        array[i] *= -1;
     }
-    return result;
+    return array;
 }
