@@ -159,10 +159,21 @@
 // For example, for [1, 2, 2] it should return 9 because 
 // (1 * 1) + (2 * 2) + (2 * 2) = 9
 
-function squareSum(numbers){
-    let newArr = 0;
-    for (i = 0; i < numbers.length; i++) {
-        newArr += Math.pow(numbers[i], 2);
-    }
-    return newArr;
+// function squareSum(numbers){
+//     let newArr = 0;
+//     for (i = 0; i < numbers.length; i++) {
+//         newArr += Math.pow(numbers[i], 2);
+//     }
+//     return newArr;
+// }
+///////////////////////////////////////////////////////////////////
+
+
+
+// Complete the solution so that it reverses the string passed into it.
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
+
+function solution(str){
+    return str.split("").reverse().join("")
 }
