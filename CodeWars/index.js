@@ -245,19 +245,34 @@
 // Tested values are all between 0 and 100. Theres is no need to check 
 // for negative values or values greater than 100.
 
-function getGrade (s1, s2, s3) {
-    let result = (s1 + s2 + s3) / 3;
+// function getGrade (s1, s2, s3) {
+//     let result = (s1 + s2 + s3) / 3;
 
-    if (result >= 90 && result <= 100) {
-        return "A";
-    } else if (result >= 80 && result < 90) {
-        return "B";
-    } else if (result >= 70 && result < 80) {
-        return "C";
-    } else if (result >= 60 && result < 70) {
-        return "D";
-    } else if (result >= 0 && result < 60) {
-        return "F";
+//     if (result >= 90 && result <= 100) {
+//         return "A";
+//     } else if (result >= 80 && result < 90) {
+//         return "B";
+//     } else if (result >= 70 && result < 80) {
+//         return "C";
+//     } else if (result >= 60 && result < 70) {
+//         return "D";
+//     } else if (result >= 0 && result < 60) {
+//         return "F";
+//     }
+// }
+////////////////////////////////////////////////////////////////////////
+
+
+
+// You are given the length and width of a 4-sided polygon. The polygon 
+// can either be a rectangle or a square.
+// If it is a square, return its area. If it is a rectangle, return its 
+// perimeter.
+
+const areaOrPerimeter = function(l , w) {
+    if (l == w) {
+        return l * w;
+    } else {
+        return (l * 2) + (w * 2);
     }
-}
-
+};
