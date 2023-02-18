@@ -316,16 +316,31 @@
 // Give your answer as a string matching "odd" or "even".
 // If the input array is empty consider it as: [0] (array with a zero).
 
-function oddOrEven(array) {
-    let arrSum = 0;
+// function oddOrEven(array) {
+//     let arrSum = 0;
 
-    for (i = 0; i < array.length; i++) {
-        arrSum += array[i];
-    }
+//     for (i = 0; i < array.length; i++) {
+//         arrSum += array[i];
+//     }
     
-    if (arrSum % 2 == 0) {
-        return "even";
-    } else {
-        return "odd";
+//     if (arrSum % 2 == 0) {
+//         return "even";
+//     } else {
+//         return "odd";
+//     }
+// }
+//////////////////////////////////////////////////////////////////
+
+
+// Write a function that takes an array of numbers and returns the sum 
+// of the numbers. The numbers can be negative or non-integer. If the 
+// array does not contain any numbers then you should return 0.
+
+function sum(numbers) {
+    let sumNum = 0;
+    for (i = 0; i < numbers.length; i++) {
+        sumNum += numbers[i];
+
     }
-}
+    return sumNum;
+};
