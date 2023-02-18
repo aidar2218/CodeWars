@@ -284,12 +284,26 @@
 // numbers which are divisible by the given divisor. First argument 
 // is an array of numbers and the second is the divisor.
 
-function divisibleBy(numbers, divisor){
-    let arrDivisors = [];
-    for (i = 0; i < numbers.length; i++) {
-        if (numbers[i] % divisor == 0) {
-            arrDivisors.push(numbers[i]);
-        }
-    }
-    return arrDivisors;
+// function divisibleBy(numbers, divisor){
+//     let arrDivisors = [];
+//     for (i = 0; i < numbers.length; i++) {
+//         if (numbers[i] % divisor == 0) {
+//             arrDivisors.push(numbers[i]);
+//         }
+//     }
+//     return arrDivisors;
+// }
+
+// console.log();
+/////////////////////////////////////////////////////////////////////
+
+
+
+// The first century spans from the year 1 up to and including the year 
+// 100, the second century - from the year 101 up to and including the 
+// year 200, etc.
+// Given a year, return the century it is in.
+
+function century(year) {
+    return Math.ceil(year / 100);
 }
