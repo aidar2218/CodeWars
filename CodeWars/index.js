@@ -269,10 +269,27 @@
 // If it is a square, return its area. If it is a rectangle, return its 
 // perimeter.
 
-const areaOrPerimeter = function(l , w) {
-    if (l == w) {
-        return l * w;
-    } else {
-        return (l * 2) + (w * 2);
+// const areaOrPerimeter = function(l , w) {
+//     if (l == w) {
+//         return l * w;
+//     } else {
+//         return (l * 2) + (w * 2);
+//     }
+// };
+/////////////////////////////////////////////////////////////////////
+
+
+
+// Complete the function which takes two arguments and returns all 
+// numbers which are divisible by the given divisor. First argument 
+// is an array of numbers and the second is the divisor.
+
+function divisibleBy(numbers, divisor){
+    let arrDivisors = [];
+    for (i = 0; i < numbers.length; i++) {
+        if (numbers[i] % divisor == 0) {
+            arrDivisors.push(numbers[i]);
+        }
     }
-};
+    return arrDivisors;
+}
