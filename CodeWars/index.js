@@ -304,6 +304,28 @@
 // year 200, etc.
 // Given a year, return the century it is in.
 
-function century(year) {
-    return Math.ceil(year / 100);
+// function century(year) {
+//     return Math.ceil(year / 100);
+// }
+///////////////////////////////////////////////////////////////////
+
+
+
+// Given a list of integers, determine whether the sum of its elements 
+// is odd or even.
+// Give your answer as a string matching "odd" or "even".
+// If the input array is empty consider it as: [0] (array with a zero).
+
+function oddOrEven(array) {
+    let arrSum = 0;
+
+    for (i = 0; i < array.length; i++) {
+        arrSum += array[i];
+    }
+    
+    if (arrSum % 2 == 0) {
+        return "even";
+    } else {
+        return "odd";
+    }
 }
