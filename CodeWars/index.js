@@ -336,11 +336,33 @@
 // of the numbers. The numbers can be negative or non-integer. If the 
 // array does not contain any numbers then you should return 0.
 
-function sum(numbers) {
-    let sumNum = 0;
-    for (i = 0; i < numbers.length; i++) {
-        sumNum += numbers[i];
+// function sum(numbers) {
+//     let sumNum = 0;
+//     for (i = 0; i < numbers.length; i++) {
+//         sumNum += numbers[i];
 
-    }
-    return sumNum;
-};
+//     }
+//     return sumNum;
+// };
+//////////////////////////////////////////////////////////////////
+
+
+
+// You get an array of numbers, return the sum of all of the positives 
+// ones.
+// Example [1,-4,7,12] => 1 + 7 + 12 = 20
+// Note: if there is nothing to sum, the sum is default to 0.
+
+// function positiveSum(arr) {
+//     let result = 0;
+//     for (i = 0; i < arr.length; i++) {
+//         if (arr[i] > 0) {
+//             result += arr[i];
+//         }
+//     }
+//     return result;
+// }
+///////////////////////////////////////////////////////////////////
+
+
+
