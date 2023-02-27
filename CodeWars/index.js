@@ -487,10 +487,10 @@
 // she needs to do is to figure out one word, from there she already 
 // knows what to do. And here comes your role - you can help Jenny find 
 // out what the word is!
-// In order to find out what the word is, you should use the sticker 
+//      In order to find out what the word is, you should use the sticker 
 // (array of 3 numbers) to retrive 3 letters from the comment (string) 
 // that create the word.
-// Each of the numbers in the array refers to the position of a letter 
+//      Each of the numbers in the array refers to the position of a letter 
 // in the string, in increasing order.
 // Spaces are not places, you need the actual letters. No spaces.
 // The returned word should be all lowercase letters.
@@ -499,23 +499,50 @@
 // Example: input: [5, 0, 3], "I Love You" output: "ivy" 
 // (0 = "i", 3 = "v", 5 = "y")
 
-function missingWord(nums, str) {
-    let newString = str.split(" ").join("").split("");
-    let newNumber = nums.sort();
-    let resultStrArr = [];
+// function missingWord(nums, str) {
+//     let newString = str.split(" ").join("").split("");
+//     let newNumber = nums.sort();
+//     let resultStrArr = [];
 
-    for (i = 0; i < newString.length; i++) {
-        for (j = 0; j < newNumber.length; j++) {
-            if (i == newNumber[j]) {
-                resultStrArr.push(newString[i]);
-            } else if (newNumber[j] > newString.length) {
-                return "No mission today"
-            }
+//     for (i = 0; i < newString.length; i++) {
+//         for (j = 0; j < newNumber.length; j++) {
+//             if (i == newNumber[j]) {
+//                 resultStrArr.push(newString[i]);
+//             } else if (newNumber[j] > newString.length) {
+//                 return "No mission today"
+//             }
 
+//         }
+//     }
+
+//     let result = resultStrArr.join("");
+
+//     return result.toLowerCase();
+// }
+
+
+
+// Character recognition software is widely used to digitise printed 
+// texts. Thus the texts can be edited, searched and stored on a computer.
+// When documents (especially pretty old ones written with a typewriter), 
+// are digitised character recognition softwares often make mistakes.
+// Your task is correct the errors in the digitised text. You only have 
+// to handle the following mistakes:
+// S is misinterpreted as 5
+// O is misinterpreted as 0
+// I is misinterpreted as 1
+// The test cases contain numbers only by mistake.
+
+function correct(string) {
+    let array = string.split("");
+	for (i = 0; i < array.length; i++) {
+        if (array[i] === "5") {
+            array[i] = "S";
+        } else if (array[i] === "0") {
+            array[i] = "O";
+        } else if (array[i] === "1") {
+            array[i] = "I";
         }
     }
-
-    let result = resultStrArr.join("");
-
-    return result.toLowerCase();
+    return array.join("");
 }
