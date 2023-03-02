@@ -557,6 +557,26 @@
 // the test input may be "1 year old" or "5 years old". The first 
 // character in the string is always a number.
 
-function getAge(inputString){
-    return Number(inputString[0]);
-}
+// function getAge(inputString){
+//     return Number(inputString[0]);
+// }
+/////////////////////////////////////////////////////////////////
+
+
+
+// Messi is a soccer player with goals in three leagues:
+// LaLiga
+// Copa del Rey
+// Champions
+// Complete the function to return his total number of goals in all 
+// three leagues.
+// Note: the input will always be valid.
+// For example:
+// 5, 10, 2  -->  17
+
+// function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+//     return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+// }
+//////////////////////////////////////////////////////////////////////
+
+
