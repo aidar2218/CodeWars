@@ -632,8 +632,20 @@
 // values: the length, width and height of the cuboid. Write a function 
 // to help Bob with this calculation.
 
-class Kata {
-    static getVolumeOfCuboid(length, width, height) {
-        return length * width * height;
-    }
+// class Kata {
+//     static getVolumeOfCuboid(length, width, height) {
+//         return length * width * height;
+//     }
+// }
+///////////////////////////////////////////////////////////////////////
+
+
+
+function descendingOrder(n){
+    let str = String(n);
+    let arr = str.split("").sort().reverse();
+    let result = arr.join("");
+    return Number(result);
 }
+
+console.log(descendingOrder(1425366));
