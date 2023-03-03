@@ -679,17 +679,42 @@
 
 
 
-function findDifference(a, b) {
-    let sumA = a[0] * a[1] * a[2];
-    let sumB = b[0] * b[1] * b[2];
-    let result = 0;
+// In this simple exercise, you will create a program that will take two 
+// lists of integers, a and b. Each list will consist of 3 positive 
+// integers above 0, representing the dimensions of cuboids a and b. You 
+// must find the difference of the cuboids' volumes regardless of which 
+// is bigger.
 
-    if (sumA > sumB) {
-        result = sumA - sumB;
-    } else {
-        result = sumB - sumA;
+// function findDifference(a, b) {
+//     let sumA = a[0] * a[1] * a[2];
+//     let sumB = b[0] * b[1] * b[2];
+//     let result;
+
+//     if (sumA > sumB) {
+//         result = sumA - sumB;
+//     } else {
+//         result = sumB - sumA;
+//     }
+//     return result;
+// }
+/////////////////////////////////////////////////////////////////////
+
+
+
+// Make a program that takes a value (x) and returns "Bang" if the 
+// number is divisible by 3, "Boom" if it is divisible by 5, "BangBoom" 
+// if it divisible by 3 and 5, and "Miss" if it isn't divisible by any 
+// of them. Note: Your program should only return one value
+
+function multiple(x) {
+    if (x % 3 == 0 && x % 5 == 0) {
+        return "BangBoom";
     }
-    return sumA;
+    else if (x % 3 == 0) {
+        return "Bang";
+    } else if (x % 5 == 0) {
+        return "Boom";
+    } else {
+        return "Miss";
+    }
 }
-
-console.log(findDifference([2, 2, 3], [5, 4, 1]));
