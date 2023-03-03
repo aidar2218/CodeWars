@@ -615,12 +615,25 @@
 // None of the arrays will be empty, so you don't have to worry about 
 // that!
 
-function removeEveryOther(arr){
-    let newArray = [];
-    for (i = 0; i < arr.length; i++) {
-        if (i % 2 == 0) {
-            newArray.push(arr[i]);
-        }
+// function removeEveryOther(arr){
+//     let newArray = [];
+//     for (i = 0; i < arr.length; i++) {
+//         if (i % 2 == 0) {
+//             newArray.push(arr[i]);
+//         }
+//     }
+//     return newArray;
+// }
+///////////////////////////////////////////////////////////////////
+
+
+
+// Bob needs a fast way to calculate the volume of a cuboid with three 
+// values: the length, width and height of the cuboid. Write a function 
+// to help Bob with this calculation.
+
+class Kata {
+    static getVolumeOfCuboid(length, width, height) {
+        return length * width * height;
     }
-    return newArray;
 }
