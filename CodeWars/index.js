@@ -706,15 +706,30 @@
 // if it divisible by 3 and 5, and "Miss" if it isn't divisible by any 
 // of them. Note: Your program should only return one value
 
-function multiple(x) {
-    if (x % 3 == 0 && x % 5 == 0) {
-        return "BangBoom";
-    }
-    else if (x % 3 == 0) {
-        return "Bang";
-    } else if (x % 5 == 0) {
-        return "Boom";
-    } else {
-        return "Miss";
-    }
+// function multiple(x) {
+//     if (x % 3 == 0 && x % 5 == 0) {
+//         return "BangBoom";
+//     }
+//     else if (x % 3 == 0) {
+//         return "Bang";
+//     } else if (x % 5 == 0) {
+//         return "Boom";
+//     } else {
+//         return "Miss";
+//     }
+// }
+////////////////////////////////////////////////////////////////////////
+
+
+
+// Your function takes two arguments:
+// current father's age (years)
+// current age of his son (years)
+// Сalculate how many years ago the father was twice as old as his son 
+// (or in how many years he will be twice as old). The answer is always 
+// greater or equal to 0, no matter if it was in the past or it is in 
+// the future.
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    return Math.abs((sonYearsOld * 2) - dadYearsOld);
 }
