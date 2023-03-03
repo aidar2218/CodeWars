@@ -667,11 +667,29 @@
 // 14: -14
 // -34: 34
 
-function opposite(number) {
-    if (number < 0) {
-        number = 0 + Math.abs(number);
-    } else if (number > 0) {
-        number = 0 - number;
+// function opposite(number) {
+//     if (number < 0) {
+//         number = 0 + Math.abs(number);
+//     } else if (number > 0) {
+//         number = 0 - number;
+//     }
+//     return number;
+// }
+/////////////////////////////////////////////////////////////////////
+
+
+
+function findDifference(a, b) {
+    let sumA = a[0] * a[1] * a[2];
+    let sumB = b[0] * b[1] * b[2];
+    let result = 0;
+
+    if (sumA > sumB) {
+        result = sumA - sumB;
+    } else {
+        result = sumB - sumA;
     }
-    return number;
+    return sumA;
 }
+
+console.log(findDifference([2, 2, 3], [5, 4, 1]));
