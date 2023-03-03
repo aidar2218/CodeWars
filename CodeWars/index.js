@@ -641,11 +641,37 @@
 
 
 
-function descendingOrder(n){
-    let str = String(n);
-    let arr = str.split("").sort().reverse();
-    let result = arr.join("");
-    return Number(result);
-}
+// Your task is to make a function that can take any non-negative 
+// integer as an argument and return it with its digits in descending 
+// order. Essentially, rearrange the digits to create the highest 
+// possible number.
+// Examples:
+// Input: 42145 Output: 54421
+// Input: 145263 Output: 654321
+// Input: 123456789 Output: 987654321
 
-console.log(descendingOrder(1425366));
+// function descendingOrder(n){
+//     let str = String(n);
+//     let arr = str.split("").sort().reverse();
+//     let result = arr.join("");
+//     return Number(result);
+// }
+///////////////////////////////////////////////////////////////////////
+
+
+
+// Very simple, given an integer or a floating-point number, find its 
+// opposite.
+// Examples:
+// 1: -1
+// 14: -14
+// -34: 34
+
+function opposite(number) {
+    if (number < 0) {
+        number = 0 + Math.abs(number);
+    } else if (number > 0) {
+        number = 0 - number;
+    }
+    return number;
+}
