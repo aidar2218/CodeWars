@@ -730,6 +730,17 @@
 // greater or equal to 0, no matter if it was in the past or it is in 
 // the future.
 
-function twiceAsOld(dadYearsOld, sonYearsOld) {
-    return Math.abs((sonYearsOld * 2) - dadYearsOld);
+// function twiceAsOld(dadYearsOld, sonYearsOld) {
+//     return Math.abs((sonYearsOld * 2) - dadYearsOld);
+// }
+/////////////////////////////////////////////////////////////////////
+
+
+
+// Complete the solution so that it returns true if the first argument
+// (string) passed in ends with the 2nd argument (also a string).
+
+function solution(str, ending){
+    let strEnd = str.substr(-3);
+    return strEnd == ending;
 }
