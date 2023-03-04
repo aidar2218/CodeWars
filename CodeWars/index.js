@@ -1,8 +1,8 @@
-// Given a month as an integer from 1 to 12, return to which 
+// Given a month as an integer from 1 to 12, return to which
 // quarter of the year it belongs as an integer number.
 
-// For example: month 2 (February), is part of the first quarter; 
-// month 6 (June), is part of the second quarter; and month 11 (November), 
+// For example: month 2 (February), is part of the first quarter;
+// month 6 (June), is part of the second quarter; and month 11 (November),
 // is part of the fourth quarter.
 
 // Constraint:   1 <= month <= 12
@@ -31,7 +31,7 @@
 
 // function maps(arr){
 //     for (i = 0; i < arr.length; i++) {
-//         arr[i] = arr[i] * 2; 
+//         arr[i] = arr[i] * 2;
 //     }
 //     return arr;
 // }
@@ -39,12 +39,12 @@
 
 
 
-// You were camping with your friends far away from home, but when it's 
-// time to go back, you realize that your fuel is running out and the 
-// nearest pump is 50 miles away! You know that on average, your car runs 
+// You were camping with your friends far away from home, but when it's
+// time to go back, you realize that your fuel is running out and the
+// nearest pump is 50 miles away! You know that on average, your car runs
 // on about 25 miles per gallon. There are 2 gallons left.
 
-// Considering these factors, write a function that tells you if it is 
+// Considering these factors, write a function that tells you if it is
 // possible to get to the pump or not.
 
 // Function should return true if it is possible and false if not.
@@ -60,7 +60,7 @@
 
 
 
-// Write a function that accepts an integer n and a string s as 
+// Write a function that accepts an integer n and a string s as
 // parameters, and returns a string of s repeated exactly n times.
 
 // function repeatStr (n, s) {
@@ -69,7 +69,7 @@
 //////////////////////////////////////////////////////////////////////
 
 
-// Write a function to split a string and convert it into an 
+// Write a function to split a string and convert it into an
 // array of words.
 
 // function stringToArray(string){
@@ -79,7 +79,7 @@
 
 
 
-// Given an array of integers as strings and numbers, return the sum of 
+// Given an array of integers as strings and numbers, return the sum of
 // the array values as if all were numbers.
 // Return your answer as a number.
 
@@ -94,9 +94,9 @@
 
 
 
-// Given a set of numbers, return the additive inverse of each. Each 
+// Given a set of numbers, return the additive inverse of each. Each
 // positive becomes negatives, and the negatives become positives.
-// You can assume that all values are integers. Do not mutate the input 
+// You can assume that all values are integers. Do not mutate the input
 // array/list.
 
 // function invert(array) {
@@ -109,9 +109,9 @@
 
 
 
-// Create a function with two arguments that will return an array of the 
+// Create a function with two arguments that will return an array of the
 // first n multiples of x.
-// Assume both the given number and the number of times to count will be 
+// Assume both the given number and the number of times to count will be
 // positive numbers greater than 0.
 // Return the results as an array or list ( depending on language ).
 
@@ -127,13 +127,13 @@
 
 
 // There was a test in your class and you passed it. Congratulations!
-// But you're an ambitious person. You want to know if you're better 
+// But you're an ambitious person. You want to know if you're better
 // than the average student in your class.
-// You receive an array with your peers' test scores. Now calculate 
+// You receive an array with your peers' test scores. Now calculate
 // the average and compare your score!
 // Return True if you're better, else False!
-// Note: Your points are not included in the array of your class's 
-// points. For calculating the average point you may add your point 
+// Note: Your points are not included in the array of your class's
+// points. For calculating the average point you may add your point
 // to the given array!
 
 // function betterThanAverage(classPoints, yourPoints) {
@@ -154,9 +154,9 @@
 
 
 
-// Complete the square sum function so that it squares each number 
+// Complete the square sum function so that it squares each number
 // passed into it and then sums the results together.
-// For example, for [1, 2, 2] it should return 9 because 
+// For example, for [1, 2, 2] it should return 9 because
 // (1 * 1) + (2 * 2) + (2 * 2) = 9
 
 // function squareSum(numbers){
@@ -181,16 +181,16 @@
 
 
 
-// This function should take two arguments: exam - grade for exam 
+// This function should take two arguments: exam - grade for exam
 // (from 0 to 100); projects - number of completed projects
 // (from 0 and above);
-// This function should return a number (final grade). There are four 
+// This function should return a number (final grade). There are four
 // types of final grades:
-// 100, if a grade for the exam is more than 90 or if a number of 
+// 100, if a grade for the exam is more than 90 or if a number of
 // completed projects more than 10.
-// 90, if a grade for the exam is more than 75 and if a number of 
+// 90, if a grade for the exam is more than 75 and if a number of
 // completed projects is minimum 5.
-// 75, if a grade for the exam is more than 50 and if a number of 
+// 75, if a grade for the exam is more than 50 and if a number of
 // completed projects is minimum 2.
 // 0, in other cases.
 
@@ -206,7 +206,7 @@
 
 
 
-// Create a function that takes an integer as an argument and returns 
+// Create a function that takes an integer as an argument and returns
 // "Even" for even numbers or "Odd" for odd numbers.
 
 // function evenOrOdd(number) {
@@ -220,13 +220,13 @@
 
 
 
-// Alex just got a new hula hoop, he loves it but feels discouraged 
+// Alex just got a new hula hoop, he loves it but feels discouraged
 // because his little brother is better than him
-// Write a program where Alex can input (n) how many times the hoop goes 
+// Write a program where Alex can input (n) how many times the hoop goes
 // round and it will return him an encouraging message :)
-// If Alex gets 10 or more hoops, return the string 
+// If Alex gets 10 or more hoops, return the string
 // "Great, now move on to tricks".
-// If he doesn't get 10 hoops, return the string 
+// If he doesn't get 10 hoops, return the string
 // "Keep at it until you get it".
 
 // function hoopCount (n) {
@@ -240,9 +240,9 @@
 
 
 
-// Complete the function so that it finds the average of the three scores 
+// Complete the function so that it finds the average of the three scores
 // passed to it and returns the letter value associated with that grade.
-// Tested values are all between 0 and 100. Theres is no need to check 
+// Tested values are all between 0 and 100. Theres is no need to check
 // for negative values or values greater than 100.
 
 // function getGrade (s1, s2, s3) {
@@ -264,9 +264,9 @@
 
 
 
-// You are given the length and width of a 4-sided polygon. The polygon 
+// You are given the length and width of a 4-sided polygon. The polygon
 // can either be a rectangle or a square.
-// If it is a square, return its area. If it is a rectangle, return its 
+// If it is a square, return its area. If it is a rectangle, return its
 // perimeter.
 
 // const areaOrPerimeter = function(l , w) {
@@ -280,8 +280,8 @@
 
 
 
-// Complete the function which takes two arguments and returns all 
-// numbers which are divisible by the given divisor. First argument 
+// Complete the function which takes two arguments and returns all
+// numbers which are divisible by the given divisor. First argument
 // is an array of numbers and the second is the divisor.
 
 // function divisibleBy(numbers, divisor){
@@ -299,8 +299,8 @@
 
 
 
-// The first century spans from the year 1 up to and including the year 
-// 100, the second century - from the year 101 up to and including the 
+// The first century spans from the year 1 up to and including the year
+// 100, the second century - from the year 101 up to and including the
 // year 200, etc.
 // Given a year, return the century it is in.
 
@@ -311,7 +311,7 @@
 
 
 
-// Given a list of integers, determine whether the sum of its elements 
+// Given a list of integers, determine whether the sum of its elements
 // is odd or even.
 // Give your answer as a string matching "odd" or "even".
 // If the input array is empty consider it as: [0] (array with a zero).
@@ -322,7 +322,7 @@
 //     for (i = 0; i < array.length; i++) {
 //         arrSum += array[i];
 //     }
-    
+
 //     if (arrSum % 2 == 0) {
 //         return "even";
 //     } else {
@@ -332,8 +332,8 @@
 //////////////////////////////////////////////////////////////////
 
 
-// Write a function that takes an array of numbers and returns the sum 
-// of the numbers. The numbers can be negative or non-integer. If the 
+// Write a function that takes an array of numbers and returns the sum
+// of the numbers. The numbers can be negative or non-integer. If the
 // array does not contain any numbers then you should return 0.
 
 // function sum(numbers) {
@@ -348,7 +348,7 @@
 
 
 
-// You get an array of numbers, return the sum of all of the positives 
+// You get an array of numbers, return the sum of all of the positives
 // ones.
 // Example [1,-4,7,12] => 1 + 7 + 12 = 20
 // Note: if there is nothing to sum, the sum is default to 0.
@@ -367,9 +367,9 @@
 
 
 // Nathan loves cycling.
-// Because Nathan knows it is important to stay hydrated, he drinks 0.5 
+// Because Nathan knows it is important to stay hydrated, he drinks 0.5
 // litres of water per hour of cycling.
-// You get given the time in hours and you need to return the number of 
+// You get given the time in hours and you need to return the number of
 // litres Nathan will drink, rounded to the smallest value.
 
 // function litres(time) {
@@ -380,11 +380,11 @@
 
 
 // Create a function which answers the question "Are you playing banjo?".
-// If your name starts with the letter "R" or lower case "r", you are 
+// If your name starts with the letter "R" or lower case "r", you are
 // playing banjo!
-// The function takes a name as its only argument, and returns one of 
+// The function takes a name as its only argument, and returns one of
 // the following strings:
-// name + " plays banjo" 
+// name + " plays banjo"
 // name + " does not play banjo"
 
 // function areYouPlayingBanjo(name) {
@@ -398,10 +398,10 @@
 
 
 
-// Implement a function that accepts 3 integer values a, b, c. The 
-// function should return true if a triangle can be built with the sides 
+// Implement a function that accepts 3 integer values a, b, c. The
+// function should return true if a triangle can be built with the sides
 // of given length and false in any other case.
-// (In this case, all triangles must have surface greater than 0 to be 
+// (In this case, all triangles must have surface greater than 0 to be
 // accepted).
 
 // function isTriangle(a,b,c) {
@@ -411,13 +411,13 @@
 
 
 
-// After a hard quarter in the office you decide to get some rest on a 
-// vacation. So you will book a flight for you and your girlfriend and 
+// After a hard quarter in the office you decide to get some rest on a
+// vacation. So you will book a flight for you and your girlfriend and
 // try to leave all the mess behind you.
-// You will need a rental car in order for you to get around in your 
+// You will need a rental car in order for you to get around in your
 // vacation. The manager of the car rental makes you some good offers.
-// Every day you rent the car costs $40. If you rent the car for 7 or 
-// more days, you get $50 off your total. Alternatively, if you rent 
+// Every day you rent the car costs $40. If you rent the car for 7 or
+// more days, you get $50 off your total. Alternatively, if you rent
 // the car for 3 or more days, you get $20 off your total.
 // Write a code that gives out the total amount for different days(d).
 
@@ -449,8 +449,8 @@
 
 // Count the number of divisors of a positive integer n.
 // Random tests go up to n = 500000.
-// Note you should only return a number, the count of divisors. The 
-// numbers between parentheses are shown only for you to see which 
+// Note you should only return a number, the count of divisors. The
+// numbers between parentheses are shown only for you to see which
 // numbers are counted in each case.
 
 // function getDivisorsCnt(n){
@@ -465,7 +465,7 @@
 
 
 
-// Given a non-empty array of integers, return the result of 
+// Given a non-empty array of integers, return the result of
 // multiplying the values together in order. Example:
 // [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
 
@@ -480,23 +480,23 @@
 
 
 
-// Jenny is 9 years old. She is the youngest detective in North America. 
-// Jenny is a 3rd grader student, so when a new mission comes up, she 
-// gets a code to decipher in a form of a sticker (with numbers) in her 
-// math notebook and a comment (a sentence) in her writing notebook. All 
-// she needs to do is to figure out one word, from there she already 
-// knows what to do. And here comes your role - you can help Jenny find 
+// Jenny is 9 years old. She is the youngest detective in North America.
+// Jenny is a 3rd grader student, so when a new mission comes up, she
+// gets a code to decipher in a form of a sticker (with numbers) in her
+// math notebook and a comment (a sentence) in her writing notebook. All
+// she needs to do is to figure out one word, from there she already
+// knows what to do. And here comes your role - you can help Jenny find
 // out what the word is!
-//      In order to find out what the word is, you should use the sticker 
-// (array of 3 numbers) to retrive 3 letters from the comment (string) 
+//      In order to find out what the word is, you should use the sticker
+// (array of 3 numbers) to retrive 3 letters from the comment (string)
 // that create the word.
-//      Each of the numbers in the array refers to the position of a letter 
+//      Each of the numbers in the array refers to the position of a letter
 // in the string, in increasing order.
 // Spaces are not places, you need the actual letters. No spaces.
 // The returned word should be all lowercase letters.
-// if you can't find one of the letters using the index numbers, return 
+// if you can't find one of the letters using the index numbers, return
 // "No mission today". Jenny would be very sad, but that's life... :(
-// Example: input: [5, 0, 3], "I Love You" output: "ivy" 
+// Example: input: [5, 0, 3], "I Love You" output: "ivy"
 // (0 = "i", 3 = "v", 5 = "y")
 
 // function missingWord(nums, str) {
@@ -522,11 +522,11 @@
 
 
 
-// Character recognition software is widely used to digitise printed 
+// Character recognition software is widely used to digitise printed
 // texts. Thus the texts can be edited, searched and stored on a computer.
-// When documents (especially pretty old ones written with a typewriter), 
+// When documents (especially pretty old ones written with a typewriter),
 // are digitised character recognition softwares often make mistakes.
-// Your task is correct the errors in the digitised text. You only have 
+// Your task is correct the errors in the digitised text. You only have
 // to handle the following mistakes:
 // S is misinterpreted as 5
 // O is misinterpreted as 0
@@ -550,11 +550,11 @@
 
 
 
-// You ask a small girl,"How old are you?" She always says, "x years 
+// You ask a small girl,"How old are you?" She always says, "x years
 // old", where x is a random number between 0 and 9.
 // Write a program that returns the girl's age (0-9) as an integer.
-// Assume the test input string is always a valid string. For example, 
-// the test input may be "1 year old" or "5 years old". The first 
+// Assume the test input string is always a valid string. For example,
+// the test input may be "1 year old" or "5 years old". The first
 // character in the string is always a number.
 
 // function getAge(inputString){
@@ -568,7 +568,7 @@
 // LaLiga
 // Copa del Rey
 // Champions
-// Complete the function to return his total number of goals in all 
+// Complete the function to return his total number of goals in all
 // three leagues.
 // Note: the input will always be valid.
 // For example:
@@ -581,8 +581,8 @@
 
 
 
-// The starship Enterprise has run into some problem when creating a 
-// program to greet everyone as they come aboard. It is your job to fix 
+// The starship Enterprise has run into some problem when creating a
+// program to greet everyone as they come aboard. It is your job to fix
 // the code and get the program working again!
 // Example output:
 // Hello, Mr. Spock
@@ -594,10 +594,10 @@
 
 
 
-// Write a function that takes an array of words and smashes them 
-// together into a sentence and returns the sentence. You can ignore 
-// any need to sanitize words or add punctuation, but you should add 
-// spaces between each word. Be careful, there shouldn't be a space at 
+// Write a function that takes an array of words and smashes them
+// together into a sentence and returns the sentence. You can ignore
+// any need to sanitize words or add punctuation, but you should add
+// spaces between each word. Be careful, there shouldn't be a space at
 // the beginning or the end of the sentence!
 
 // function smash (words) {
@@ -607,12 +607,12 @@
 
 
 
-// Take an array and remove every second element from the array. Always 
+// Take an array and remove every second element from the array. Always
 // keep the first element and start removing with the next element.
 // Example:
-// ["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> 
+// ["Keep", "Remove", "Keep", "Remove", "Keep", ...] -->
 // ["Keep", "Keep", "Keep", ...]
-// None of the arrays will be empty, so you don't have to worry about 
+// None of the arrays will be empty, so you don't have to worry about
 // that!
 
 // function removeEveryOther(arr){
@@ -628,8 +628,8 @@
 
 
 
-// Bob needs a fast way to calculate the volume of a cuboid with three 
-// values: the length, width and height of the cuboid. Write a function 
+// Bob needs a fast way to calculate the volume of a cuboid with three
+// values: the length, width and height of the cuboid. Write a function
 // to help Bob with this calculation.
 
 // class Kata {
@@ -641,9 +641,9 @@
 
 
 
-// Your task is to make a function that can take any non-negative 
-// integer as an argument and return it with its digits in descending 
-// order. Essentially, rearrange the digits to create the highest 
+// Your task is to make a function that can take any non-negative
+// integer as an argument and return it with its digits in descending
+// order. Essentially, rearrange the digits to create the highest
 // possible number.
 // Examples:
 // Input: 42145 Output: 54421
@@ -660,7 +660,7 @@
 
 
 
-// Very simple, given an integer or a floating-point number, find its 
+// Very simple, given an integer or a floating-point number, find its
 // opposite.
 // Examples:
 // 1: -1
@@ -679,10 +679,10 @@
 
 
 
-// In this simple exercise, you will create a program that will take two 
-// lists of integers, a and b. Each list will consist of 3 positive 
-// integers above 0, representing the dimensions of cuboids a and b. You 
-// must find the difference of the cuboids' volumes regardless of which 
+// In this simple exercise, you will create a program that will take two
+// lists of integers, a and b. Each list will consist of 3 positive
+// integers above 0, representing the dimensions of cuboids a and b. You
+// must find the difference of the cuboids' volumes regardless of which
 // is bigger.
 
 // function findDifference(a, b) {
@@ -701,9 +701,9 @@
 
 
 
-// Make a program that takes a value (x) and returns "Bang" if the 
-// number is divisible by 3, "Boom" if it is divisible by 5, "BangBoom" 
-// if it divisible by 3 and 5, and "Miss" if it isn't divisible by any 
+// Make a program that takes a value (x) and returns "Bang" if the
+// number is divisible by 3, "Boom" if it is divisible by 5, "BangBoom"
+// if it divisible by 3 and 5, and "Miss" if it isn't divisible by any
 // of them. Note: Your program should only return one value
 
 // function multiple(x) {
@@ -725,9 +725,9 @@
 // Your function takes two arguments:
 // current father's age (years)
 // current age of his son (years)
-// Сalculate how many years ago the father was twice as old as his son 
-// (or in how many years he will be twice as old). The answer is always 
-// greater or equal to 0, no matter if it was in the past or it is in 
+// Сalculate how many years ago the father was twice as old as his son
+// (or in how many years he will be twice as old). The answer is always
+// greater or equal to 0, no matter if it was in the past or it is in
 // the future.
 
 // function twiceAsOld(dadYearsOld, sonYearsOld) {
@@ -737,7 +737,7 @@
 
 
 
-// We need a function that can transform a number (integer) into a 
+// We need a function that can transform a number (integer) into a
 // string.
 
 // function numberToString(num) {
@@ -747,11 +747,11 @@
 
 
 
-// You probably know the "like" system from Facebook and other pages. 
-// People can "like" blog posts, pictures or other items. We want to 
+// You probably know the "like" system from Facebook and other pages.
+// People can "like" blog posts, pictures or other items. We want to
 // create the text that should be displayed next to such an item.
-// Implement the function which takes an array containing the names of 
-// people that like an item. It must return the display text as shown in 
+// Implement the function which takes an array containing the names of
+// people that like an item. It must return the display text as shown in
 // the examples:
 // []                                -->  "no one likes this"
 // ["Peter"]                         -->  "Peter likes this"
@@ -776,11 +776,11 @@
 
 
 
-// A hero is on his way to the castle to complete his mission. However, 
-// he's been told that the castle is surrounded with a couple of 
-// powerful dragons! each dragon takes 2 bullets to be defeated, our 
-// hero has no idea how many bullets he should carry.. Assuming he's 
-// gonna grab a specific given number of bullets and move forward to 
+// A hero is on his way to the castle to complete his mission. However,
+// he's been told that the castle is surrounded with a couple of
+// powerful dragons! each dragon takes 2 bullets to be defeated, our
+// hero has no idea how many bullets he should carry.. Assuming he's
+// gonna grab a specific given number of bullets and move forward to
 // fight another specific given number of dragons, will he survive?
 
 // function hero(bullets, dragons){
@@ -793,7 +793,7 @@
 
 
 
-// Write a function to convert a name into initials. This kata strictly 
+// Write a function to convert a name into initials. This kata strictly
 // takes two words with one space in between them.
 // The output should be two capital letters with a dot separating them.
 // It should look like this:
@@ -810,17 +810,17 @@
 
 
 
-// Bob is working as a bus driver. However, he has become extremely 
-// popular amongst the city's residents. With so many passengers wanting 
-// to get aboard his bus, he sometimes has to face the problem of not 
-// enough space left on the bus! He wants you to write a simple program 
+// Bob is working as a bus driver. However, he has become extremely
+// popular amongst the city's residents. With so many passengers wanting
+// to get aboard his bus, he sometimes has to face the problem of not
+// enough space left on the bus! He wants you to write a simple program
 // telling him if he will be able to fit all the passengers.
 // You have to write a function that accepts three parameters:
 // cap is the amount of people the bus can hold excluding the driver.
 // on is the number of people on the bus excluding the driver.
-// wait is the number of people waiting to get on to the bus excluding 
+// wait is the number of people waiting to get on to the bus excluding
 // the driver.
-// If there is enough space, return 0, and if there isn't, return the 
+// If there is enough space, return 0, and if there isn't, return the
 // number of passengers he can't take.
 
 // function enough(cap, on, wait) {
@@ -847,7 +847,7 @@
 
 
 
-// Let's play! You have to return which player won! In case of a draw 
+// Let's play! You have to return which player won! In case of a draw
 // return Draw!.
 // Examples(Input1, Input2 --> Output):
 // "scissors", "paper" --> "Player 1 won!"
@@ -871,7 +871,7 @@
 // Your code will determine if the number passed is even (or not).
 // The function needs to return either a true or false.
 // Numbers may be positive or negative, integers or floats.
-// Floats with decimal part non equal to zero are considered UNeven for 
+// Floats with decimal part non equal to zero are considered UNeven for
 // this kata.
 
 // function testEven(n) {
@@ -882,14 +882,35 @@
 
 
 // If you can't sleep, just count sheep!!
-// Given a non-negative integer, 3 for example, return a string with a 
-// murmur: "1 sheep...2 sheep...3 sheep...". Input will always be valid, 
+// Given a non-negative integer, 3 for example, return a string with a
+// murmur: "1 sheep...2 sheep...3 sheep...". Input will always be valid,
 // i.e. no negative integers.
 
-var countSheep = function (num) {
-    let arr = [];
-    for (let i = 1; i <= num; i++) {
-        arr.push(i + " sheep...")
+// var countSheep = function (num) {
+//     let arr = [];
+//     for (let i = 1; i <= num; i++) {
+//         arr.push(i + " sheep...")
+//     }
+//     return arr.join("");
+// }
+//////////////////////////////////////////////////////////////////////
+
+
+
+// Create a function that accepts a string and a single character, and 
+// returns an integer of the count of occurrences the 2nd argument is 
+// found in the first one.
+// If no occurrences can be found, a count of 0 should be returned.
+
+function strCount(str, letter){  
+    let realCount = 0;
+    let arr = str.split("");
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == letter) {
+            realCount++;
+        }
     }
-    return arr.join("");
+
+    return realCount;
 }
