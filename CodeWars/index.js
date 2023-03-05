@@ -1013,12 +1013,26 @@
 // representing the state the light should change to.
 // For example, when the input is green, output should be yellow.
 
-function updateLight(current) {
-    if (current == "green") {
-        return "yellow";
-    } else if (current == "yellow") {
-        return "red";
+// function updateLight(current) {
+//     if (current == "green") {
+//         return "yellow";
+//     } else if (current == "yellow") {
+//         return "red";
+//     } else {
+//         return "green";
+//     }
+// }
+/////////////////////////////////////////////////////////////////////
+
+
+
+// In this simple assignment you are given a number and have to make it 
+// negative. But maybe the number is already negative?
+
+function makeNegative(num) {
+    if (num > 0) {
+        return 0 - num;
     } else {
-        return "green";
+        return num;
     }
 }
