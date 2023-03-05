@@ -938,17 +938,38 @@
 // The input string will only consist of lower case letters and/or 
 // spaces.
 
-function getCount(str) {
-    let vowels = ["a", "e", "i", "o", "u"];
-    let count = 0;
+// function getCount(str) {
+//     let vowels = ["a", "e", "i", "o", "u"];
+//     let count = 0;
 
-    for (let i = 0; i < str.length; i++) {
-        for(let j = 0; j < vowels.length; j++) {
-            if (str[i] == vowels[j]) {
-                count++
-            }
+//     for (let i = 0; i < str.length; i++) {
+//         for(let j = 0; j < vowels.length; j++) {
+//             if (str[i] == vowels[j]) {
+//                 count++
+//             }
+//         }
+//     }
+
+//     return count;
+// }
+//////////////////////////////////////////////////////////////////////
+
+
+
+// Check to see if a string has the same amount of 'x's and 'o's. The 
+// method must return a boolean and be case insensitive. The string can 
+// contain any char.
+
+function XO(str) {
+    let arr = str.toLowerCase().split("");
+    let countX = 0;
+    let countO = 0;
+    for (i = 0; i < arr.length; i++) {
+        if (arr[i] === "x") {
+            countX++;
+        } else if (arr[i] === "o") {
+            countO++;
         }
     }
-
-    return count;
+    return countX == countO;
 }
