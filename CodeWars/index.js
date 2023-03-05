@@ -980,6 +980,24 @@
 // This function should test if the factor is a factor of base.
 // Return true if it is a factor or false if it is not.
 
-function checkForFactor (base, factor) {
-    return base % factor == 0;
+// function checkForFactor (base, factor) {
+//     return base % factor == 0;
+// }
+//////////////////////////////////////////////////////////////////////
+
+
+
+// You will be given an array a and a value x. All you need to do is 
+// check whether the provided array contains the value.
+// Array can contain numbers or strings. X can be either.
+// Return true if the array contains the value, false if not.
+
+function check(a, x) {
+    let count = 0;
+    for (i = 0; i < a.length; i++) {
+        if (a[i] == x) {
+            count++;
+        }
+    }
+    return count > 0;
 }
