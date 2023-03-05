@@ -960,16 +960,26 @@
 // method must return a boolean and be case insensitive. The string can 
 // contain any char.
 
-function XO(str) {
-    let arr = str.toLowerCase().split("");
-    let countX = 0;
-    let countO = 0;
-    for (i = 0; i < arr.length; i++) {
-        if (arr[i] === "x") {
-            countX++;
-        } else if (arr[i] === "o") {
-            countO++;
-        }
-    }
-    return countX == countO;
+// function XO(str) {
+//     let arr = str.toLowerCase().split("");
+//     let countX = 0;
+//     let countO = 0;
+//     for (i = 0; i < arr.length; i++) {
+//         if (arr[i] === "x") {
+//             countX++;
+//         } else if (arr[i] === "o") {
+//             countO++;
+//         }
+//     }
+//     return countX == countO;
+// }
+//////////////////////////////////////////////////////////////////////
+
+
+
+// This function should test if the factor is a factor of base.
+// Return true if it is a factor or false if it is not.
+
+function checkForFactor (base, factor) {
+    return base % factor == 0;
 }
