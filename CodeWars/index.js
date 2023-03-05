@@ -1058,9 +1058,21 @@
 // Write a function that returns both the minimum and maximum number of 
 // the given list/array.
 
-function minMax(arr){
-    let maxArr = Math.max.apply(null, arr);
-    let minArr = Math.min.apply(null, arr);
-    let result = [minArr, maxArr];
-    return result;
-}
+// function minMax(arr){
+//     let maxArr = Math.max.apply(null, arr);
+//     let minArr = Math.min.apply(null, arr);
+//     let result = [minArr, maxArr];
+//     return result;
+// }
+//////////////////////////////////////////////////////////////////////
+
+
+
+// Use variables to find the sum of the goals Messi scored in 3 
+// competitions
+
+var laLigaGoals = 43;
+var championsLeagueGoals = 10;
+var copaDelReyGoals = 5;
+
+var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;
