@@ -1029,10 +1029,19 @@
 // In this simple assignment you are given a number and have to make it 
 // negative. But maybe the number is already negative?
 
-function makeNegative(num) {
-    if (num > 0) {
-        return 0 - num;
-    } else {
-        return num;
-    }
+// function makeNegative(num) {
+//     if (num > 0) {
+//         return 0 - num;
+//     } else {
+//         return num;
+//     }
+// }
+
+
+
+// Create a function that checks if a number n is divisible by two 
+// numbers x AND y. All inputs are positive, non-zero numbers.
+
+function isDivisible(n, x, y) {
+    return n % x == 0 && n % y == 0;
 }
