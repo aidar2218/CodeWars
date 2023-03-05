@@ -902,15 +902,34 @@
 // found in the first one.
 // If no occurrences can be found, a count of 0 should be returned.
 
-function strCount(str, letter){  
-    let realCount = 0;
-    let arr = str.split("");
+// function strCount(str, letter){  
+//     let realCount = 0;
+//     let arr = str.split("");
 
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] == letter) {
-            realCount++;
-        }
-    }
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] == letter) {
+//             realCount++;
+//         }
+//     }
 
-    return realCount;
-}
+//     return realCount;
+// }
+//////////////////////////////////////////////////////////////////////
+
+
+
+// Complete the function that takes two integers (a, b, where a < b) and 
+// return an array of all integers between the input parameters, 
+// including them.
+
+// function between(a, b) {
+//     let arr = [];
+//     for (i = a; i <= b; i++) {
+//         arr.push(i);
+//     }
+//     return arr;
+// }
+///////////////////////////////////////////////////////////////////////
+
+
+
