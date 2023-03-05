@@ -1036,12 +1036,31 @@
 //         return num;
 //     }
 // }
+////////////////////////////////////////////////////////////////////
 
 
 
 // Create a function that checks if a number n is divisible by two 
 // numbers x AND y. All inputs are positive, non-zero numbers.
 
-function isDivisible(n, x, y) {
-    return n % x == 0 && n % y == 0;
+// function isDivisible(n, x, y) {
+//     return n % x == 0 && n % y == 0;
+// }
+////////////////////////////////////////////////////////////////////
+
+
+
+// Ben has a very simple idea to make some profit: he buys something 
+// and sells it again. Of course, this wouldn't give him any profit at 
+// all if he was simply to buy and sell it at the same price. Instead, 
+// he's going to buy it for the lowest possible price and sell it at 
+// the highest.
+// Write a function that returns both the minimum and maximum number of 
+// the given list/array.
+
+function minMax(arr){
+    let maxArr = Math.max.apply(null, arr);
+    let minArr = Math.min.apply(null, arr);
+    let result = [minArr, maxArr];
+    return result;
 }
