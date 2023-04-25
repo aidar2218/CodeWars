@@ -1104,16 +1104,27 @@
 // if bmi <= 30.0 return "Overweight"
 // if bmi > 30 return "Obese"
 
-function bmi(weight, height) {
-    let result = weight / (height * height);
-    if (result <= 18.5) {
-        return "Underweight";
-    } else if (result <= 25) {
-        return "Normal";
-    } else if (result <= 30) {
-        return "Overweight";
-    } else if (result > 30) {
-        return "Obese";
-    }
-}
+// function bmi(weight, height) {
+//     let result = weight / (height * height);
+//     if (result <= 18.5) {
+//         return "Underweight";
+//     } else if (result <= 25) {
+//         return "Normal";
+//     } else if (result <= 30) {
+//         return "Overweight";
+//     } else if (result > 30) {
+//         return "Obese";
+//     }
+// }
+////////////////////////////////////////////////////////////////////////////////
 
+
+
+// Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accepts 1 parameter:n, 
+// n is the number of hotdogs a customer will buy, different numbers have different prices 
+// (refer to the following table), return how much money will the customer spend to buy 
+// that number of hotdogs.
+
+function saleHotdogs(n){
+    return n < 5 ? n * 100: n >= 5 && n < 10 ? n * 95: n * 90;
+}
