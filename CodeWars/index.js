@@ -1125,6 +1125,25 @@
 // (refer to the following table), return how much money will the customer spend to buy 
 // that number of hotdogs.
 
-function saleHotdogs(n){
-    return n < 5 ? n * 100: n >= 5 && n < 10 ? n * 95: n * 90;
+// function saleHotdogs(n){
+//     return n < 5 ? n * 100: n >= 5 && n < 10 ? n * 95: n * 90;
+// }
+//////////////////////////////////////////////////////////////////////////////////
+
+
+
+// There are pillars near the road. The distance between the pillars is 
+// the same and the width of the pillars is the same. Your function 
+// accepts three arguments:
+// 1. number of pillars (≥ 1);
+// 2. distance between pillars (10 - 30 meters);
+// 3. width of the pillar (10 - 50 centimeters).
+// Calculate the distance between the first and the last pillar in 
+// centimeters (without the width of the first and last pillar).
+
+function pillars(numPill, dist, width) {
+    if (numPill > 1) {
+      return ((dist * 100) * (numPill - 1)) + (width * (numPill - 2));
+    }
+    return 0;
 }
