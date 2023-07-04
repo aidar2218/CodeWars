@@ -1170,9 +1170,35 @@
 // If the initial velocity is non-positive, the return value should 
 // be 0
 
-function sakuraFall(v) {
-  if (v < 1) {
-    return 0;
-  }
-  return 400 / v;
+// function sakuraFall(v) {
+//   if (v < 1) {
+//     return 0;
+//   }
+//   return 400 / v;
+// }
+/////////////////////////////////////////////////////////////////////
+
+
+
+// Can you find the needle in the haystack?
+
+// Write a function findNeedle() that takes an array full of junk but 
+// containing one "needle"
+
+// After your function finds the needle it should return a message 
+// (as a string) that says:
+
+// "found the needle at position " plus the index it found the needle, so:
+// ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> 
+// "found the needle at position 5"
+
+
+function findNeedle(haystack) {
+    let position = 0;
+    for(i = 0; i < haystack.length; i++) {
+      if(haystack[i] === "needle") {
+        position = i;
+      }
+    }
+    return `found the needle at position ${position}`
 }
