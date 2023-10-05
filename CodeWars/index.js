@@ -1200,7 +1200,7 @@
 //         position = i;
 //       }
 //     }
-//     return `found the needle at position ${position}`
+//     return `found the needle at position ${position}`; 
 // }
 ////////////////////////////////////////////////////////////////////////////
 
@@ -1216,17 +1216,77 @@
 // Array size is at least 1.
 // All numbers will be positive.
 
-function rowWeights(array) {
-    let sum1 = 0;
-    let sum2 = 0;
-    let result = [];
-    for (let i = 0; i < array.length; i++) {
-        if (i % 2 === 0) {
-            sum1 += array[i];
-        } else if (i % 2 === 1){
-            sum2 += array[i];
-        }
-    }
-    result.push(sum1, sum2);
-    return result;
-}
+// function rowWeights(array) {
+//     let sum1 = 0;
+//     let sum2 = 0;
+//     let result = [];
+//     for (let i = 0; i < array.length; i++) {
+//         if (i % 2 === 0) {
+//             sum1 += array[i];
+//         } else if (i % 2 === 1){
+//             sum2 += array[i];
+//         }
+//     }
+//     result.push(sum1, sum2);
+//     return result;
+// }
+//////////////////////////////////////////////////////////////////////////////
+
+
+// Напишите функцию на удобном для тебя языке программирования, 
+// которая принимает строку и возвращает сжатую версию этой строки. 
+// Сжатие должно происходить следующим образом: 
+// если в строке есть последовательность одинаковых символов, то она заменяется 
+// на символ, количество повторений которого указано в скобках. 
+// Например, строка "aaabbbbbcc" должна быть сжата до "a3b5c2". Если сжатая строка 
+// оказывается длиннее исходной, то верните исходную строку.
+
+// const compression = (str) => {
+//     let result = "";
+//     let count = 1;
+
+//     for(let i = 0; i < str.length; i++) {
+//         if(str[i] == str[i+1] && i < str.length) {
+//             count++;
+//         } else {
+//             result += str[i] + (count > 1 ? count : "");
+//             count = 1;
+//         }
+//     }
+//     return result;
+// }
+
+
+// console.log(compression("aaabbbccc"));
+// console.log(compression("abcde"));
+// console.log(compression("aabbcc"));
+////////////////////////////////////////////////////////////////////////////////////
+
+
+// Напиши функцию на удобном для тебя языке программирования:
+// Дан массив целых чисел arr. Верни true, если количество повторений 
+// каждого значения в массиве уникально, иначе верни false.
+// Примеры:
+// Ввод: arr = [1,2,2,1,1,3]
+// Вывод: true
+// Объяснение:
+// Значение 1 повторяется 3 раза, значение 2 повторяется 2 раза, а значение 3 
+// повторяется 1 раз. Ни одно из значений не имеет одинаковое количество повторений.
+
+// const repeat = (arr) => {
+//     for(let i = 0; i <= arr.length; i++) {
+//         let similar = arr.includes(arr[i], i + 1);
+//         if(similar) {
+//             return true;
+//         }
+//     }
+//     return false
+// }
+
+// console.log(repeat([1,2,2,1,1,3]));
+// console.log(repeat([1,2]));
+// console.log(repeat([-3,0,1,-3,1,1,1,-3,10,0]));
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+
