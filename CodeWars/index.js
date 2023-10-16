@@ -1290,3 +1290,34 @@
 
 
 
+// Given a sequence of numbers, find the largest pair sum in the sequence.
+// For example
+// [10, 14, 2, 23, 19] -->  42 (= 23 + 19)
+// [99, 2, 2, 23, 19]  --> 122 (= 99 + 23)
+// Input sequence contains minimum two elements and every element is an integer.
+
+// function largestPairSum (numbers) {
+//     //TODO: Write your Code here
+//     const sortedNums = numbers.sort((a, b) => b - a);
+//     return sortedNums[0] + sortedNums[1];
+// }
+
+// console.log(largestPairSum([1,5,2,9,5,4]));
+///////////////////////////////////////////////////////////////////////////////////
+
+
+
+// You will be given an array of numbers. You have to sort the odd numbers in ascending 
+// order while leaving the even numbers at their original positions.
+// Examples
+// [7, 1]  =>  [1, 7]
+// [5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
+// [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
+
+// function sortArray(array) {
+//     const odds = array.filter(x => x % 2).sort((a, b) => a - b);
+//     return array.map(x => x % 2 ? odds.shift() : x);
+// }
+
+// console.log(sortArray([5, 3, 2, 8, 1, 4]));
+//////////////////////////////////////////////////////////////////////////
