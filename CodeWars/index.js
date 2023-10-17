@@ -1321,3 +1321,75 @@
 
 // console.log(sortArray([5, 3, 2, 8, 1, 4]));
 //////////////////////////////////////////////////////////////////////////
+
+
+
+// Write a function that takes an array of numbers (integers for the tests) and 
+// a target number. It should find two different items in the array that, when 
+// added together, give the target value. The indices of these items should then 
+// be returned in a tuple / list (depending on your language) like so: (index1, index2).
+
+// For the purposes of this kata, some tests may have multiple answers; any valid solutions 
+// will be accepted.
+
+// The input will always be valid (numbers will be an array of length 2 or greater, 
+// and all of the items will be numbers; target will always be the sum of two different 
+// items from that array).
+
+// twoSum([1, 2, 3], 4) // returns [0, 2] or [2, 0]
+
+// function twoSum(numbers, target) {
+//     for(let i = 0; i < numbers.length; i++) {
+//         for(let j = i + 1; j < numbers.length; j++) {
+//             let result = numbers[i] + numbers[j];
+//             if (result === target) return [i, j];
+//         }
+//     }
+// }
+
+// console.log(twoSum([1234, 5678, 9012], 14690));
+////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// In mathematics, the factorial of a non-negative integer n, denoted by n!, is the product 
+// of all positive integers less than or equal to n. For example: 5! = 5 * 4 * 3 * 2 * 1 = 120. 
+// By convention the value of 0! is 1.
+
+// Write a function to calculate factorial for a given input. If input is below 0 or above 12 
+// throw an exception of type ArgumentOutOfRangeException (C#) or IllegalArgumentException 
+// (Java) or RangeException (PHP) or throw a RangeError (JavaScript) or ValueError (Python) 
+// or return -1 (C).
+
+// const factorial = (n) => {
+//     if (n <= 1) {
+//         return 1;
+//     } else {
+//         return n * factorial(n - 1);
+//     }
+// }
+
+// console.log(factorial(5));
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// Trolls are attacking your comment section!
+// A common way to deal with this situation is to remove all of the vowels from the trolls' 
+// comments, neutralizing the threat.
+// Your task is to write a function that takes a string and return a new string with all 
+// vowels removed.
+// For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+// Note: for this kata y isn't considered a vowel.
+
+// function disemvowel(s){
+//     let result = "";
+//     for(i=0;i<s.length;i++){
+//       if(!"aeiouAEIOU".includes(s[i])){
+//         result += s[i];    
+//       }
+//     }
+//     return result;
+// }
+
+// console.log(disemvowel("This website is for losers LOL!"));
